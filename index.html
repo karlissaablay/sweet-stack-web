@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <title>Sweet Stack</title>
+    <style>html,body{touch-action:none;-webkit-user-select:none;user-select:none;background:#fff4e6;height:100%;margin:0;overflow:hidden}#app{position:fixed;inset:0}#safe-probe{visibility:hidden;pointer-events:none;padding-top:var(--safe-area-inset-top,env(safe-area-inset-top,0px));padding-bottom:var(--safe-area-inset-bottom,env(safe-area-inset-bottom,0px));position:fixed}</style>
+    <script type="module" crossorigin src="./assets/index-DNZtVvbT.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-whhFd6IO.css">
+  
+    <meta name="theme-color" content="#FFF4E6" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Sweet Stack" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <style>
+      /* Safari: no rubber-band scroll, long-press callout, tap flash or text zoom on the canvas. */
+      body { position: fixed; inset: 0; overscroll-behavior: none; -webkit-touch-callout: none; -webkit-tap-highlight-color: transparent; -webkit-text-size-adjust: 100%; }
+      /* iOS ignores the manifest's portrait lock: ask her friends to turn the phone back. */
+      #turn { display: none; position: fixed; inset: 0; z-index: 10; background: #FFF4E6; color: #6B3F2A;
+        font: 600 22px Fredoka, system-ui, sans-serif; align-items: center; justify-content: center; text-align: center; }
+      @media (orientation: landscape) and (max-height: 600px) { #turn { display: flex; } }
+    </style>
+  </head>
+  <body>
+    <div id="safe-probe"></div>
+    <div id="app"></div>
+    <div id="turn">Turn your phone upright to bake 🧁</div>
+  </body>
+</html>
